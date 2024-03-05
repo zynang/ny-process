@@ -64,9 +64,9 @@
                     <p>The school website primarily serves as a point of information and a collection of resources for 3 groups of users: </p>
                     
                         <ul>
-                            <li>Prospective students and parents</li>
-                            <li>Current students and parents</li>
-                            <li>Alumni</li>
+                            <li>Prospective students and parents: Interested in curriculum, experiences and history (Main User)</li>
+                            <li>Current students: Interested in quick links and history of school for class projects </li>
+                            <li>Alumni: Interested in quick links and history of school for heritage projects </li>
                         </ul>
                     <p>As such, my comments about the website's existing design revolve around its ability to respond to the needs of these identified users. I have organized my comments around the principles of Efficiency, Learnability and Memorability.</p>
 
@@ -80,10 +80,10 @@
                             <td>
                                 <ul>
                                     <li>
-                                        The navigation bar organizes the website’s information into useful groupings for the primary users.
+                                        The navigation bar organizes the website’s information into useful groupings for the primary users, making it easy for them to find quick links to related sites.
                                     </li>
                                     <li>
-                                        However, the homepage is not efficiently utilized for access to key information. Space is wasted on information that primary users are not interested in, such as ‘Our Partners’ and ‘Our Educational Alliances’. Primary users are aware of the school’s reputation and would prefer to quickly access specific information about the curriculum and history of the school instead.
+                                        However, the homepage is not efficiently utilized for access to key information. Space is wasted on information that primary users are not interested in, such as 'News', ‘Our Partners’ and ‘Our Educational Alliances’. Primary users are aware of the school’s reputation and would prefer to quickly access specific information about the curriculum, heritage and history of the school instead.
                                     </li>
                                     <li>
                                         On a positive note, announcements are prominently displayed on the homepage. This makes it easy for the relevant users to get the information they need.
@@ -95,7 +95,7 @@
                             <td>
                                 <ul>
                                     <li>
-                                        The interface follows a standard website design and should be familiar to most users. However, the body of the homepage is poorly utilized and makes it difficult for new users to find the information they need. 
+                                        The body of the homepage is poorly utilized and makes it difficult for new users to find the information they need. 
                                     </li>
                                     <li>
                                         The clickable elements of the website are not easily identified, and the buttons are poorly designed (overly-small font size, no distinct background, easily overlooked).
@@ -116,10 +116,13 @@
                             <td>
                                 <ul>
                                     <li>
-                                        The interface is very unmemorable. It reads like a standard template from a website builder (e.g. Wix), with few elements of visual interest
+                                        The interface is very unmemorable. It reads like a standard template from a website builder (e.g. Wix), with few elements of visual interest. 
                                     </li>
                                     <li>
-                                       Based on the contents of the homepage, the bicultural nature of the school is not immediately obvious. This reduces the website’s memorability, since there is an  disconnect between the webpage and the school's reputation.
+                                        The hero image is boring. It is the school's facade, and does not convey any useful information about the school.
+                                    </li>
+                                    <li>
+                                       Based on the contents of the homepage, the bicultural nature of the school is not immediately obvious. This reduces the website's memorability, since there is a disconnect between the webpage and the school's reputation.
                                     </li>
                                 </ul>
                             </td>
@@ -136,10 +139,8 @@
                             </a>
                         </div>
                         <div class="a-content">
-                            <h4>WAVE detected 13 errors on the website, including:  </h4>
+                            <h4>WAVE detected 9 errors on the website, including:  </h4>
                             <ul>
-                                <li>2 x Missing or uninformative page title</li>
-                                <li>2 x Language missing or invalid</li>
                                 <li>3 x Missing alternative text</li>
                                 <li>2 x Missing form label</li>
                                 <li>1 x Empty heading</li>
@@ -149,7 +150,7 @@
                         
                             <p>WAVE was largely accurate in its detection of problems, except for the incorrect detection of empty links (the links were present).</p>
                             <p>
-                                The lack of a page title, page regions/ARIA landmarks, and language-identifying markers across the entire page was particularly concerning. These findings reveal a highly inaccessible design, since the purpose of the page will not be clear, both to first-time users that stumble upon it, and users who rely on ARIA labels to navigate a webpage. The lack of language markers for a webpage meant primarily for bilingual (English/Mandarin) speakers (as tied to the mission of the school), is also inappropriate.
+                                The lack of a heading for the landing visual and alternative texts for some images was particularly concerning. These findings reveal an inaccessible design-- the absense of a heading and alternative text prevent screen readers from conveying an accurate audio description of the website to users. 
                             </p> 
 
                         </div>
@@ -185,7 +186,7 @@
             <div class="content-box">
                 <h2 class="sub-heading">Wireframing</h2>
                 <p>Based off my final sketch, I created 3 wireframes for my redesign on Figma. These wireframes were for the Desktop, Tablet and Mobile displays of the webpage which was designed to be responsive.</p>
-                <p>Below are annotated illustrations of each display. I have also attached a link to high-quality PDF of each display, if the web version is too grainy.</p>
+                <p>Below are annotated illustrations of each display. I have also attached a link to a high-quality PDF of the displays below, if the web version is too grainy.</p>
                 <div class="images-content">
                     <a href="https://drive.google.com/file/d/1S0p0fLRh754gdnV8xfI5z4gQMNmvXZy6/view?usp=drive_link"><h4 class="link">Link to high quality wireframe PDF</h4></a>
                     <div class="image">
@@ -206,9 +207,13 @@
         <div id="styleguide">
             <div class="content-box">
                 <h2 class="sub-heading">Style Guide</h2>
+                <p>With my basic wireframe complete, I created a style guide for my website redesign.</p>
+                <p>For colors, I picked the school colors-- Blue, Yellow and White, in varying shades and tones.</p>
+                <p>For the font, I wanted a serif accent font for the page headers, subheaders and titles (Lora) and a standard sans serif font for the content (Inter). I used a formula [calc( ?px + ?vw)] to set the font size, so that the font would scale with the width of the user's screen, yet preserve a minimum font size for smaller screens, such as mobile phones.</p>
+                <div class="image">
+                    <span class="symbol"><img src="images/style-guide.png" alt="style guide for redesign of webpage" /></span>
+                </div>
                 
-                
-
             </div>
         </div>
 
@@ -216,7 +221,7 @@
             <div class="content-box">
                 <h2 class="sub-heading">High-Fidelity Mockup</h2>
                 <p>Building off the wireframe and the style guide, I created three high-fidelity mockups on figma.</p>
-                <p>I have also attached a link to high-quality PDF of each display, if the web version is too grainy.</p>
+                <p>I have also attached a link to a high-quality PDF of the displays below, if the web version is too grainy.</p>
                 <div class="images-content">
                     <a href="https://drive.google.com/file/d/1J1i65L85s7PaQYvC7LXnM_aTVHlQYmmR/view?usp=drive_link"><h4 class="link">Link to high quality mockup PDF</h4></a>
                     <div class="image">
@@ -236,9 +241,9 @@
         <div id="redesign">
             <div class="content-box">
                 <h2 class="sub-heading">Final Redesign</h2>
-                <p>After the different steps above...</p>
-                <a href="https://zynang.github.io/ny-redesign/"><h4 class="link">Here is a link to the final deployed redesigned website</h4></a>
-               
+                <p>After all that research, ideation and prototyping...</p>
+                <a href="https://zynang.github.io/ny-redesign/"><h4 class="link">This is the link to my final deployed redesigned website!</h4></a>
+                <p>The website is responsive, and can be viewed on a phone (~375x667px), a tablet (~768x1024px) and a large computer (~3840x2160px).</p>
                 
                 
             </div>

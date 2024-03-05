@@ -88,7 +88,7 @@ table ul li{
 }
 
 #caption h4:hover{
-    color: darkolivegreen;
+    color: orange;
 }
 
 #intro-content-box .image{
@@ -176,7 +176,7 @@ border-collapse: collapse;
     border: bisque solid 15px;
     border-radius: 1vw;
     margin-bottom: 2%;
-    width: 50%;
+    width: 60%;
     padding: 1%;
 
 }
@@ -185,6 +185,17 @@ border-collapse: collapse;
     width:100%;
 }
 
+#styleguide .image{
+    border: bisque solid 15px;
+    border-radius: 1vw;
+    margin-bottom: 2%;
+    width: 40%;
+    padding: 1%;
+}
+
+#styleguide .image img{
+    width: 100%;
+}
 
 #mockup .image img{
     width: 100%;
@@ -194,7 +205,7 @@ border-collapse: collapse;
     border: bisque solid 15px;
     border-radius: 1vw;
     margin-bottom: 2%;
-    width: 50%;
+    width: 60%;
     padding: 1%;
 }
 
@@ -224,3 +235,11 @@ border-collapse: collapse;
     width: 100%;
 }
 
+.images-content h4:hover{
+    color:orange;
+}
+
+
+.link:hover{
+    color:orange;
+}
