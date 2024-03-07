@@ -189,7 +189,7 @@ border-collapse: collapse;
     border: bisque solid 15px;
     border-radius: 1vw;
     margin-bottom: 2%;
-    width: 40%;
+    width: 60%;
     padding: 1%;
 }
 
@@ -235,10 +235,14 @@ border-collapse: collapse;
     width: 100%;
 }
 
-.images-content h4:hover{
+/* .images-content h4:hover{
+    color:orange;
+} */
+
+
+.images-content a:hover{
     color:orange;
 }
-
 
 .link:hover{
     color:orange;
